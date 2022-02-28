@@ -27,30 +27,30 @@ export default function Home() {
 
             <div className="flex">
               <div className={styles.fonts}>F1</div>
-              <div className="font-['MonoType'] p-4 border-t-2 border-gray-900 w-[200px] max-w-[300px]">{input}</div>
+              <div className="font-['MonoType'] border-t-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
             <div className="flex">
               <div className={styles.fonts}>F2</div>
-              <div className="font-['Amazon']  p-4 border-t-2 border-gray-900 w-[200px]  max-w-[300px]">{input}</div>
+              <div className="font-['Amazon'] border-t-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
             <div className="flex">
               <div className={`${styles.fonts} border-b-2`}>F3</div>
-              <div className="font-['Massillo'] p-4 border-t-2 border-b-2 border-gray-900 w-[200px]  max-w-[300px]">{input}</div>
+              <div className="font-['Massillo'] border-t-2 border-b-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
           </div>
           <div className={styles.right}>
 
             <div className="flex">
               <div className={styles.fonts}>F11</div>
-              <div className="font-['HaverinkScript'] p-4 border-t-2 border-r-2 border-gray-900 w-[200px]  max-w-[300px]">{input}</div>
+              <div className="font-['HaverinkScript'] border-t-2 border-r-2 border-gray-900 flex items-center w-[140px]  ">{input}</div>
             </div>
             <div className="flex">
               <div className={`${styles.fonts}`}>F12</div>
-              <div className="p-4 border-t-2 border-r-2 border-gray-900 w-[200px]  max-w-[300px]">{input}</div>
+              <div className="border-t-2 border-r-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
             <div className="flex">
               <div className={`${styles.fonts} border-b-2`}>F13</div>
-              <div className="font-['SavoyeLetPlain'] p-4 border-t-2 border-r-2 border-b-2 border-gray-900 w-[200px]  max-w-[300px]">{input}</div>
+              <div className="font-['SavoyeLetPlain'] border-t-2 border-r-2 border-b-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
           </div>
 
