@@ -1,16 +1,34 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: 'MonoType';
+  font-style: normal;
+  font-display: swap;
+  src: local('MonoType'), url(/font/mtcorsva.woff) format('woff');
 }
-
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: 'Amazon';
+  font-style: normal;
+  font-display: swap;
+  src: local('Amazon'), url(/font/amazon.woff) format('woff');
+}
+@font-face {
+  font-family: 'Massillo';
+  font-style: normal;
+  font-display: swap;
+  src: local('Massillo'), url(/font/massillo.woff) format('woff');
+}
+@font-face {
+  font-family: 'HaverinkScript';
+  font-style: normal;
+  font-display: swap;
+  src: local('HaverinkScript'), url(/font/HaverinkScript.woff) format('woff');
+}
+@font-face {
+  font-family: 'SavoyeLetPlain';
+  font-style: normal;
+  font-display: swap;
+  src: local('SavoyeLetPlain'), url(/font/SavoyeLetPlain.woff) format('woff');
 }
