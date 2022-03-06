@@ -39,15 +39,15 @@ export default function Home() {
         <div className="flex justify-center m-10">
           <div className={styles.left}>
             <div className="flex">
-              <div className={styles.fonts}>F1</div>
+              <div className={`${styles.fonts} border-t-2`}>F1</div>
               <div className="font-['MonoType'] border-t-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
             <div className="flex">
-              <div className={styles.fonts}>F2</div>
+              <div className={`${styles.fonts} border-t-2`}>F2</div>
               <div className="font-['Amazon'] border-t-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
             <div className="flex">
-              <div className={`${styles.fonts} border-b-2`}>F3</div>
+              <div className={`${styles.fonts} border-t-2 border-b-2`}>F3</div>
               <div className="font-['Massillo'] border-t-2 border-b-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
             <div className="flex">
@@ -82,15 +82,15 @@ export default function Home() {
           <div className={styles.right}>
 
             <div className="flex">
-              <div className={styles.fonts}>F11</div>
+              <div className={`${styles.fonts} border-t-2`}>F11</div>
               <div className="font-['HaverinkScript'] border-t-2 border-r-2 border-gray-900 flex items-center w-[140px]  ">{input}</div>
             </div>
             <div className="flex">
-              <div className={`${styles.fonts}`}>F12</div>
+              <div className={`${styles.fonts} border-t-2`}>F12</div>
               <div className="border-t-2 border-r-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
             <div className="flex">
-              <div className={`${styles.fonts} border-b-2`}>F13</div>
+              <div className={`${styles.fonts} border-t-2 border-b-2`}>F13</div>
               <div className="font-['SavoyeLetPlain'] border-t-2 border-r-2 border-b-2 border-gray-900 flex items-center w-[140px]">{input}</div>
             </div>
             <div className="flex">
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </main>
+      </main >
       <footer className={styles.footer}>
         <Link href="https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2F%2B905316096155%2F&e=ATOE6WyoSSo0uI-_LFswWWv-qEyTt1dGjWcma0ZybzvxMmKwokS8zA4F3bH9-HCCjDB7VYQWWYH1zTFeLGmiAA&s=1" passHref>
           <a className="absolute left-3 bottom-3">
@@ -132,6 +132,6 @@ export default function Home() {
           </a>
         </Link>
       </footer>
-    </div>
+    </div >
   )
 }
