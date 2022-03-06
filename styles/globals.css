@@ -32,3 +32,87 @@
   font-display: swap;
   src: local('SavoyeLetPlain'), url(/font/SavoyeLetPlain.woff) format('woff');
 }
+@font-face {
+  font-family: 'Angelina';
+  font-style: normal;
+  font-display: swap;
+  src: local('Angelina'), url(/font/angelina.woff) format('woff');
+}
+@font-face {
+  font-family: 'Arthurdale';
+  font-style: normal;
+  font-display: swap;
+  src: local('Arthurdale'), url(/font/arthurdale.woff) format('woff');
+}
+@font-face {
+  font-family: 'Agreable';
+  font-style: normal;
+  font-display: swap;
+  src: local('Agreable'), url(/font/Agreable.woff) format('woff');
+}
+@font-face {
+  font-family: 'Anydore';
+  font-style: normal;
+  font-display: swap;
+  src: local('Anydore'), url(/font/Anydore.woff) format('woff');
+}
+@font-face {
+  font-family: 'BrushScript';
+  font-style: normal;
+  font-display: swap;
+  src: local('BrushScript'), url(/font/BrushScript.woff) format('woff');
+}
+@font-face {
+  font-family: 'Harstmount';
+  font-style: normal;
+  font-display: swap;
+  src: local('Harstmount'), url(/font/Harstmount.woff) format('woff');
+}
+@font-face {
+  font-family: 'Snell';
+  font-style: normal;
+  font-display: swap;
+  src: local('Snell'), url(/font/Snell.woff) format('woff');
+}
+@font-face {
+  font-family: 'Humble';
+  font-style: normal;
+  font-display: swap;
+  src: local('Humble'), url(/font/Humble.woff) format('woff');
+}
+@font-face {
+  font-family: 'CandleMustard';
+  font-style: normal;
+  font-display: swap;
+  src: local('CandleMustard'), url(/font/CandleMustard.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'YouthLine';
+  font-style: normal;
+  font-display: swap;
+  src: local('YouthLine'), url(/font/YouthLine.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'Gabriola';
+  font-style: normal;
+  font-display: swap;
+  src: local('Gabriola'), url(/font/Gabriola.woff) format('woff');
+}
+@font-face {
+  font-family: 'AmericanTypewriter';
+  font-style: normal;
+  font-display: swap;
+  src: local('AmericanTypewriter'), url(/font/AmericanTypewriter.woff) format('woff');
+}
+@font-face {
+  font-family: 'EMBASSYN';
+  font-style: normal;
+  font-display: swap;
+  src: local('EMBASSYN'), url(/font/EMBASSYN.woff) format('woff');
+}
+@font-face {
+  font-family: 'Bellesa';
+  font-style: normal;
+  font-display: swap;
+  src: local('Bellesa'), url(/font/Bellesa.woff) format('woff');
+}
